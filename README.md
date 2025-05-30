@@ -38,13 +38,13 @@ A fully responsive, elegant coffee shop e-commerce website built using **HTML**,
 ### 📱 Mobile – About Section
 ![About Mobile](./screen-shoot/about-mobile.jpeg)
 
-### 📱 Mobile – About Section
+### 📱 Mobile – Menu Section
 ![Menu Mobile](./screen-shoot/menu-mobile.jpeg)
 
 ### 💻 Tablet – Shop Section
 ![Shop Tablet](./screen-shoot/shop-tab.jpeg)
 
-### 💻 Tablet – Shop Section
+### 💻Cart
 ![cart](./screen-shoot/cart.jpeg)
 ---
 
