@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Musa's Artisan Coffee | Premium Coffee Experience</title>
+
+  <!-- PAGE ICON -->
+  <link rel="icon" href="./image/icon.jpg" type="image/x-icon" />
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="coffe.css" />
+</head>
+<body>
+  <!-- LODING SCREEN -->
+  <div class="loading-screen">
+    <div class="coffee-cup">
+      <div class="steam steam1"></div>
+      <div class="steam steam2"></div>
+      <div class="steam steam3"></div>
+    </div>
+  </div>
+
+  <header class="header" aria-label="header" id="Home">
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navBar">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./image/logo.jpg" alt="" />
+          <span>musa's coffee</span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li class="nav-link"><a href="#home">Home</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#menu">Menu</a></li>
+            <li class="nav-link"><a href="#shop">Shop</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+
+       <div class="utility-nav">
+  <div class="current-time">
+    <span id="current-time"></span>
+              <span id="current-date"></span>
+            </div>
+            <div class="cart-icon" id="cartIcon">
+              <span class="cart-count">0</span>
+           
+                <i class="fas fa-shopping-cart"></i>
+           
+            </div>
+          </div>
+
+
+          <button class="close-btn" id="closeBtn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <button class="open-btn" id="openBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Artisan Coffee Crafted with Passion</h1>
+          <p>Experience hand-roasted beans and carefully brewed perfection in every cup</p>
+        </div>
+        <div class="hero-buttons">
+          <a href="#"><button class="btn primary-btn">View Menu</button></a>
+          <a href="#"><button class="btn secondary-btn">Our Story</button></a>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- ABOUT SECTION -->
+<main>
+  <section class="about-section" aria-label="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="subtitle">OUR STORY</h2>
+        <h1 class="section-title"> About Musa's Coffee</h1>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Founded in 2023, Musa's Coffee began as a small passion project and has grown into a beloved local destination for coffee enthusiasts.</p>
+          <p>We source our beans directly from ethical growers and roast them in-house to bring you the freshest flavors possible.</p>
+        
+                <div class="about-stats">
+           <div class="stat">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Happy Customers Daily</span>
+              </div>
+           <div class="stat">
+                <span class="stat-number">12</span>
+                <span class="stat-label">Coffee Varieties</span>
+              </div>
+            </div>
+        </div>
+  
+            <div class="about-image">
+              <img src="./image/coffee-machine.webp" alt="Coffee preparation">
+              <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- MENU SECTION --> 
+   <section class="menu-section" aria-label="menu"id="menu">
+    <div class="container">
+
+        <div class="section-header">
+          <h2 class="subtitle">Delicious Selection</h2>
+          <h1 class="section-title">Our Coffee Menu</h1>
+      
+        <div class="menu-tabs">
+          <button class="tab-btn active"data-category='coffee'>Coffee</button>
+          <button class="tab-btn "data-category='tea'>Tea</button>
+          <button class="tab-btn "data-category="pastries">Pastries</button>
+        </div>
+      </div>
+      <div class="menu-items">
+         <!-- MENU ITEM WILL BE GENRATED FORM JS -->
+
+       </div>
+    </div>
+   </section>
+
+   <!-- SHOP SECTION -->
+    <section class="shop-section" aria-label="shop"id="shop">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="subtitle">Take Home the Experience</h3>
+          <h2 class="section-title">Coffee Shop</h2>
+        </div>
+        <div class="products">
+          <!-- The shop item will be gentread form js -->
+        </div>
+      </div>
+    </section>
+<section class="review-section" aria-label="review">
+  <div class="container">
+    <div class="section-header">
+      <h3 class="subtitle">Customer Reviews</h3>
+      <h1 class="section-title">What People Say</h1>
+    </div>
+    <div class="reviews-item">
+      <!-- WILL BE GENREATED VIA JS -->
+    </div>
+  </div>
+</section>
+
+<!-- Subscribe section -->
+ <section class="subscribe-section"aria-label="Subscribe" id="contact">
+  <div class="container">
+    <div class="subscribe-content">
+      <h1>Join Our Coffee Club</h1>
+      <p>Subscribe to get exclusive offers and coffee tips</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit" class="btn primary-btn">Subscribe</button> 
+      </form>
+    </div>
+  </div>
+ </section>
+</main>
+<!-- cart side bar section -->
+<aside>
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Cart <i class="fas fa-shopping-cart"></i></h3>
+      <button class="close-cart" id="closeCart">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be loaded via JavaScript -->
+    </div>
+    <div class="cart-total">
+      <p>Total: <span id="cartTotal">$0.00</span></p>
+       <button class="btn primary-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+</aside>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+        <div class="footer-col">
+          <img src="./image/logo.jpg"alt="Musa's Coffee Logo" class="footer-logo">
+          <p>Bringing quality coffee experiences since 2023</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+         <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#shop">Shop</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Coffee Street, City</li>
+            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@musascoffee.com</li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <ul>
+            <li>Monday - Friday: 7am - 8pm</li>
+            <li>Saturday: 8am - 9pm</li>
+            <li>Sunday: 8am - 6pm</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Musa's Coffee. All rights reserved.</p>
+        <div class="payment-methods">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-paypal"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JAVASCRIPT -->
+  <script src="coffe.js"></script>
+</body>
+</html>
