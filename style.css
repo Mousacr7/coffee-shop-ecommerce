@@ -218,7 +218,7 @@ span {
 header {
   background: linear-gradient(to left, rgba(58, 57, 57, 0), rgba(0, 0, 0, 0.575)), url(./image/Coffee-preparation.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 20%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
