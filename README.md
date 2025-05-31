@@ -44,11 +44,7 @@ A fully responsive, elegant coffee shop e-commerce website built using **HTML**,
 ### 💻 Tablet – Shop Section
 ![Shop Tablet](./screen-shoot/shop-tab.jpeg)
 
-<<<<<<< HEAD
 ### 🛒Cart
-=======
-### 💻Cart
->>>>>>> 7774186a0a16aae14ebc8190b20e33a0a065b636
 ![cart](./screen-shoot/cart.jpeg)
 ---
 
