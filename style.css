@@ -221,7 +221,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100vh;
+  height: 100vh;
   color: white;
   position: relative;
 }
