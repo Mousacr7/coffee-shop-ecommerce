@@ -280,7 +280,7 @@ const navBar = document.getElementById('navBar')
       price: 29.99,
       description: "Everything you need for the perfect pour over",
       rating: "★★★☆☆",
-      image:"./image/Pour-Over-Kit.jpg"
+      image:"./image/Pour-Over-Kit.jpeg"
     }
     ,
     {
