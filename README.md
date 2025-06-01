@@ -2,7 +2,7 @@
 
 A fully responsive, elegant coffee shop e-commerce website built using **HTML**, **CSS**, and **JavaScript**. This project includes dynamic features such as a shopping cart system, smooth user interaction, and a beautiful user interface inspired by artisan café aesthetics.
 
-##🌐 **Live Demo**
+## 🌐 **Live Demo**
 [ 👉 Click Here to View the Live Site 👈](https://mousacr7.github.io/coffee-shop-ecommerce/)
 
 ---
