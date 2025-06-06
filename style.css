@@ -447,7 +447,7 @@ gap: 1rem;
   transition: var(--transition);
 }
 
-.about-image img:hover {
+.about-image:hover img {
   transform: scale(1.05);
 }
 
@@ -1026,11 +1026,10 @@ opacity: 1;
   height: 150px;
 }
 
-.menu-item-img img {
+.cart-item-img img {
 border-radius: 10px;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   transition: var(--transition);
 }
 
@@ -1283,8 +1282,6 @@ header {
 .cart-count {
   background-color: var(--secondary-color);
 }
-
-
 
   .subscribe-form button {
     width: 25%;

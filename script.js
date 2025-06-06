@@ -97,7 +97,7 @@ const navBar = document.getElementById('navBar')
         price: 4.75,
         description: "Espresso with a lot of steamed milk and a light layer of foam",
         rating: "★★★★☆",
-        image:"./image/Latte.jpeg"
+        image:"./image/Latte.jpg"
       },      {
         id: 4,
         name: "Americano",
@@ -119,7 +119,7 @@ const navBar = document.getElementById('navBar')
         price: 4.25,
         description: "Smooth coffee brewed cold for 12 hours for low acidity",
         rating: "★★★★☆",
-        image:"./image/Cold-Brew.jpeg"
+        image:"./image/Cold-Brew.jpg"
      }
     ],
     tea: [
@@ -129,7 +129,7 @@ const navBar = document.getElementById('navBar')
         price: 3.00,
         description: "Classic black tea with bergamot flavor",
         rating: "★★★★☆",
-        image:"./image/Earl-Grey.jpeg"
+        image:"./image/Earl-Grey.jpg"
      },
       {
         id: 8,
@@ -137,7 +137,7 @@ const navBar = document.getElementById('navBar')
         price: 3.00,
         description: "Soothing herbal tea perfect for relaxation",
         rating: "★★★☆☆",
-        image:"./image/Chamomile.jpeg"
+        image:"./image/Chamomile.jpg"
      },
       {
         id: 9,
@@ -145,7 +145,7 @@ const navBar = document.getElementById('navBar')
         price: 3.25,
         description: "Light and refreshing with antioxidants",
         rating: "★★★★☆",
-        image:"./image/Green-Tea.jpeg"
+        image:"./image/Green-Tea.jpg"
      },
       {
         id: 10,
@@ -153,7 +153,7 @@ const navBar = document.getElementById('navBar')
         price: 4.50,
         description: "Spiced tea with steamed milk for a creamy texture",
         rating: "★★★★★",
-        image:"./image/Chai-Latte.jpeg"
+        image:"./image/Chai-Latte.jpg"
   }
     ],
     pastries: [
@@ -187,7 +187,7 @@ const navBar = document.getElementById('navBar')
         price: 2.75,
         description: "Classic cookie with melty chocolate chips",
         rating: "★★★★☆",
-        image:"./image/Chocolate-Chip-Cookie.jpeg"
+        image:"./image/Chocolate-Chip-Cookie.jpg"
       }
     ]
   };
@@ -255,7 +255,7 @@ const navBar = document.getElementById('navBar')
       price: 12.99,
       description: "Medium roast with caramel and nutty flavors",
       rating: "★★★★★",
-      image:"./image/Colombian-Supremo.jpeg"
+      image:"./image/Colombian-Supremo.jpg"
     }    ,
     {
       id: 103,
@@ -263,7 +263,7 @@ const navBar = document.getElementById('navBar')
       price: 15.99,
       description: "Dark roast with earthy and chocolatey tones",
       rating: "★★★★☆",
-      image:"./image/Sumatra-Mandheling.jpeg"
+      image:"./image/Sumatra-Mandheling.jpg"
  
     },    {
       id: 104,
@@ -271,7 +271,7 @@ const navBar = document.getElementById('navBar')
       price: 24.99,
       description: "Perfect for brewing rich, full-bodied coffee",
       rating: "★★★★☆",
-      image:"./image/French-Press.jpeg"
+      image:"./image/French-Press.jpg"
  
   },
     {
@@ -280,7 +280,7 @@ const navBar = document.getElementById('navBar')
       price: 29.99,
       description: "Everything you need for the perfect pour over",
       rating: "★★★☆☆",
-      image:"./image/Pour-Over-Kit.jpeg"
+      image:"./image/Pour-Over-Kit.jpg"
     }
     ,
     {
@@ -289,7 +289,7 @@ const navBar = document.getElementById('navBar')
       price: 19.99,
       description: "Set of 2 premium ceramic coffee mugs",
       rating: "★★★★☆",
-      image:"./image/Coffee-Mug-Set.jpeg"
+      image:"./image/Coffee-Mug-Set.jpg"
  
     }
  ];
